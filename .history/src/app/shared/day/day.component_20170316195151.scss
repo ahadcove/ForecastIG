@@ -1,0 +1,136 @@
+.day {
+    border: solid black;
+    height: 50vh;
+    width: 18vw;
+    background: lightblue;
+    cursor: pointer;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.day:hover {
+    // height: 52vh;
+    // width: 20vw;
+    background: black;
+}
+
+.day:active {
+    // height: 52vh;
+    // width: 20vw;
+    background: white;
+    color: black;
+}
+
+.dayHead {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    // background: cornflowerblue;
+    // text-decoration: underline;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.dayDate {
+    font-size: .5em;
+    color: navajowhite;
+}
+
+.dayIcon {
+    margin: 16px 0 40px 0;
+    // animation: turn 5s linear 1s infinite;
+    animation: slide 5s linear infinite;
+}
+
+.day:hover .dayIcon {
+    -webkit-animation-play-state: paused;
+    /* Safari 4.0 - 8.0 */
+    animation-play-state: paused;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(20%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    75% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+    // 0% {
+    //     transform: translateX(0%);
+    // }
+    // 11% {
+    //     transform: translateX(5%);
+    // }
+    // 22% {
+    //     transform: translateX(10%);
+    // }
+    // 33% {
+    //     transform: translateX(5%);
+    // }
+    // 44% {
+    //     transform: translateX(0%);
+    // }
+    // 55% {
+    //     transform: translateX(-5%);
+    // }
+    // 66% {
+    //     transform: translateX(-10%);
+    // }
+    // 77% {
+    //     transform: translateX(-5%);
+    // }
+    // 88% {
+    //     transform: translateX(0%);
+    // }
+    // 99% {
+    //     transform: translate(5%);
+    // }
+}
+
+.dayWeather {
+    margin-bottom: 10px;
+    // height: 3em;
+    font-size: 1.2em;
+}
+
+.dayTemp {
+    font-size: 1.2em;
+}
+
+.dayTempHigh,
+.dayTempLow {
+    font-size: .7em;
+}
+
+.dayTempHigh {}
+
+.dayTempLow {}

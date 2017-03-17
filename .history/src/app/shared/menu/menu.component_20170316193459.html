@@ -1,0 +1,9 @@
+<div class="menuComp" *ngIf="menuOpen" [@enterAnimation]="menuOpen">
+    <div class="closeSymb" (click)="openMenu()">X</div>
+    <ul>
+        <li>Home</li>
+        <li disabled>Weather</li>
+        <li disabled>Location</li>
+        <li disabled>Contact</li>
+    </ul>
+</div>

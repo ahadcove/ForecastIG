@@ -1,0 +1,36 @@
+.information {
+    background: dimgray;
+    width: 80vw;
+    height: 80vh;
+    position: fixed;
+    top: 10vh;
+    right: 10vw;
+}
+
+.dim {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99 !important;
+    background-color: black;
+    filter: alpha(opacity=75);
+    /* internet explorer */
+    -khtml-opacity: 0.75;
+    /* khtml, old safari */
+    -moz-opacity: 0.75;
+    /* mozilla, netscape */
+    opacity: 0.75;
+    /* fx, safari, opera */
+}
+
+.closeSymb {
+    text-align: right;
+}
+
+.closeButt {
+    margin-top: 10vh;
+    // position: absolute;
+    // bottom: 0;
+}

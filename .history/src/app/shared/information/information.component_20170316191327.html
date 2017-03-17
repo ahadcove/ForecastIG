@@ -1,0 +1,41 @@
+<div class="fullInfo" *ngIf=openMe>
+
+    <div class="dim" (click)="closeInfo()">
+    </div>
+
+    <div class="information" [@enterAnimation]="openMe">
+
+        <div class="closeSymb " (click)="closeInfo() ">X</div>
+
+        <div class="dayHead ">
+            {{pack.weekDay}}
+            <div class="dayDate ">{{pack.fullDate}}</div>
+        </div>
+        <img class="dayIcon " src={{pack.icon}} height="80px " width="75px ">
+        <div class="dayWeather ">{{pack.weather}}</div>
+        <!--<div class="dayWeatherDesc ">{{pack.weatherDesc}}</div>-->
+        <!--<div class="dayTemp ">{{pack.temp.reg}}&#176;F</div>
+    <div class="dayTempHigh ">High: {{pack.temp.high}}</div>
+    <div class="dayTempLow ">Low: {{pack.temp.low}}</div>-->
+
+        <div class="closeButt btn btn-primary " (click)="closeInfo() ">Close</div>
+    </div>
+
+</div>
+
+<!--<templat #content let-c="close " let-d="dismiss ">-->
+<!--<div class="modal-header ">
+        <h4 class="modal-title ">Modal title</h4>
+        <button type="button " class="close " aria-label="Close " (click)="d( 'Cross click') ">
+      <span aria-hidden="true ">&times;</span>
+    </button>
+    </div>
+    <div class="modal-body ">
+        <p>One fine body&hellip;</p>
+    </div>
+    <div class="modal-footer ">
+        <button type="button " class="btn btn-secondary " (click)="c( 'Close click') ">Close</button>
+    </div>-->
+<!--</templat e>-->
+
+<!--<button class="btn btn-lg btn-outline-primary " (click)="open(content) ">Launch demo modal</button>-->

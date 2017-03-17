@@ -1,0 +1,56 @@
+.day {
+    border: solid black;
+    height: 50vh;
+    width: 18vw;
+    background: lightblue;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.day:hover {
+    // height: 52vh;
+    // width: 20vw;
+    background: black;
+}
+
+.day:active {
+    // height: 52vh;
+    // width: 20vw;
+    background: white;
+    color: black;
+}
+
+.dayHead {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.dayDate {
+    font-size: .8em;
+    background: cornflowerblue;
+    // text-decoration: underline;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+}
+
+.dayWeather {
+    margin: 10px 0;
+    // height: 3em;
+    font-size: 1.2em;
+}
+
+.dayTemp {
+    font-size: 1.2em;
+}
+
+.dayTempHigh,
+.dayTempLow {
+    font-size: .7em;
+}
+
+.dayTempHigh {}
+
+.dayTempLow {}

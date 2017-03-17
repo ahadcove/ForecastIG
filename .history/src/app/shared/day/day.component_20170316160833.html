@@ -1,0 +1,15 @@
+<div class="day" (click)="openDate()">
+    <!--pack.temp.high = this.apiObj.list[this.listTracker].main.temp_max;
+      pack.temp.low = this.apiObj.list[this.listTracker].main.temp_max;
+      pack.temp.reg = this.apiObj.list[this.listTracker].main.temp;
+      pack.fullDate = fullDate.toString();
+      pack.weekDay = this.weekDay(date.getUTCDay());-->
+    <div class="dayHead">{{pack.weekDay}}</div>
+    <div class="dayDate">{{pack.fullDate}}</div>
+    <img src={{pack.icon}}>
+    <div class="dayWeather">{{pack.weather}}</div>
+    <!--<div class="dayWeatherDesc">{{pack.weatherDesc}}</div>-->
+    <div class="dayTemp">Temp: {{pack.temp.reg}}&#176;F</div>
+    <div class="dayTempHigh">High: {{pack.temp.high}}</div>
+    <div class="dayTempLow">Low: {{pack.temp.low}}</div>
+</div>

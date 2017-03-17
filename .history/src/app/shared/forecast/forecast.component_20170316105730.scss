@@ -1,0 +1,17 @@
+.forecast {
+    margin-top: 20vh;
+    height: 70vh;
+    width: 100vw;
+    background: cadetblue;
+    color: white;
+    // justify-content: center
+    padding: 0 auto;
+}
+
+.foreBody {
+    display: flex;
+    // justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    // margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+.nav {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.navLeft:hover,
+.navRight:hover {
+    color: dimgray;
+}
+
+.navLeft:active,
+.navRight:active {
+    color: black;
+}
+
+.navLeft {}
+
+.firstWord {
+    font-weight: 400;
+    color: #7f2626;
+}
+
+.secondWord {
+    font-weight: 600;
+    color: white;
+}
+
+.mockLogo {
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.navRight {
+    margin-right: 20px;
+}

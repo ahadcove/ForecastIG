@@ -1,0 +1,6 @@
+Evening: #262228;
+
+
+Burgundy: #7f2626;
+PaleGold: #C0B283;
+Silk: #DCD0C0;

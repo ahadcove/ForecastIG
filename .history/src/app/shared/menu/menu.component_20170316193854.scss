@@ -1,0 +1,51 @@
+.menuComp {
+    background: dimgray;
+    width: 40vw;
+    // height: 40vh;
+    position: fixed;
+    top: 10vh;
+    right: 10vw;
+    z-index: 99;
+}
+
+ul {
+    position: relative;
+    bottom: 15px;
+    list-style: none;
+}
+
+li {
+    cursor: no-drop;
+    font-size: 1.2em;
+}
+
+.dim {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 80 !important;
+    background-color: black;
+    filter: alpha(opacity=75);
+    /* internet explorer */
+    -khtml-opacity: 0.75;
+    /* khtml, old safari */
+    -moz-opacity: 0.75;
+    /* mozilla, netscape */
+    opacity: 0.75;
+    /* fx, safari, opera */
+}
+
+.closeSymb {
+    // display: inline;
+    cursor: pointer;
+    text-align: right;
+    margin: 10px 25px;
+    font-size: 1.6em;
+    transition: 1s ease
+}
+
+.closeSymb:hover {
+    color: blue;
+}

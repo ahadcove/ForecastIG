@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+$main:#7f2626;
+$subMain:#FF9999;
+$comp:#14CB48;
+$subComp:#14CB48;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+img {
+    // user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

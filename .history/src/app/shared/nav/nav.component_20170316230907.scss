@@ -1,0 +1,58 @@
+.nav {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.navLeft:hover,
+.navRight:hover {
+    color: dimgray;
+}
+
+.navLeft:active,
+.navRight:active {
+    color: black;
+}
+
+.navLeft {}
+
+.navLogo {
+    font-size: 1.4em;
+}
+
+.logoTxt {
+    font-size: .8em;
+}
+
+.firstWord {
+    font-weight: 600;
+    color: #7f2626;
+}
+
+.secondWord {
+    font-weight: 700;
+    color: white;
+}
+
+.mockLogo {
+    position: relative;
+    bottom: 5px;
+    font-weight: 600;
+    font-size: 1.5em;
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Internet Explorer */
+}
+
+.navRight {
+    margin-right: 20px;
+}

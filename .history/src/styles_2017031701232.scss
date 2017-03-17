@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+$main:#7f2626;
+$test:#F4F4F4;
+$comp:#262228;
+$foot:#535353;
+// $weather:#c9d8c5;
+$weather:#6ed3cf;
+* {
+    padding: 0;
+    margin: 0;
+    // font-family: "Merriweather";
+    font-family: "Crimson";
+}
+
+// <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather|Muli|Sansita" rel="stylesheet">
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+img {
+    // user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.btn {
+    padding: 5px 10px;
+}

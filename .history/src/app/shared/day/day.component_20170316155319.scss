@@ -1,0 +1,28 @@
+.day {
+    border: solid black;
+    height: 50vh;
+    width: 18vw;
+    background: lightblue;
+}
+
+.dayHead {
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+.dayDate {
+    font-size: .8em;
+}
+
+.dayTemp {
+    font-size: 1.2em;
+}
+
+.dayTempHigh,
+.dayTempLow {
+    font-size: .7em;
+}
+
+.dayTempHigh {}
+
+.dayTempLow {}

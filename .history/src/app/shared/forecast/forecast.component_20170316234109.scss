@@ -1,0 +1,38 @@
+@import '../../../styles';
+.forecast {
+    // margin-top: 20vh;
+    padding-top: 15vh;
+    height: 120vh;
+    width: 100vw;
+    background: $comp;
+    color: white;
+    // justify-content: center
+    // padding: 0 auto;
+}
+
+.foreHead {
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.foreBody {
+    margin-top: 10vh;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    // justify-content: center;
+    align-content: center;
+    // margin: 0 auto;
+    // background: $test;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#73880a+0,73880a+100;Olive+Flat */
+    background: rgb(115, 136, 10);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(115, 136, 10, 1) 0%, rgba(115, 136, 10, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(115, 136, 10, 1) 0%, rgba(115, 136, 10, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(115, 136, 10, 1) 0%, rgba(115, 136, 10, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 6.5vh 0;
+}

@@ -1,0 +1,17 @@
+<div class="forecast">
+    <app-nav [menuOpen]="menuOpen"></app-nav>
+
+    <div class="foreHead">
+        Forecast For Atlanta Ga
+    </div>
+    <div class="foreBody">
+        <!--<app-menu [menuOpen]="menuOpen" (child)="myChild=$event"></app-menu>-->
+
+        <!--<app-day *ngFor="let day of days" [dayNum]="day"></app-day>-->
+        <!--<app-day *ngFor="let day of days" (child)="myChild=$event"></app-day>-->
+        <app-day *ngFor="let day of days" (child)="app-information.openModal($event)"></app-day>
+    </div>
+
+    <app-information #information></app-information>
+
+</div>

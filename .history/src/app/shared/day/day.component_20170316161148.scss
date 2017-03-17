@@ -1,0 +1,36 @@
+.day {
+    border: solid black;
+    height: 50vh;
+    width: 18vw;
+    background: lightblue;
+}
+
+.dayHead {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.dayDate {
+    font-size: .8em;
+}
+
+.dayWeather {
+    margin: 10px 0;
+    // height: 3em;
+    font-size: 1.2em;
+}
+
+.dayTemp {
+    font-size: 1.2em;
+}
+
+.dayTempHigh,
+.dayTempLow {
+    font-size: .7em;
+}
+
+.dayTempHigh {}
+
+.dayTempLow {}

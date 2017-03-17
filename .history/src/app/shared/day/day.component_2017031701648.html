@@ -1,0 +1,17 @@
+<div class="day" (click)="openModal()">
+    <!--pack.temp.high = this.apiObj.list[this.listTracker].main.temp_max;
+      pack.temp.low = this.apiObj.list[this.listTracker].main.temp_max;
+      pack.temp.reg = this.apiObj.list[this.listTracker].main.temp;
+      pack.fullDate = fullDate.toString();
+      pack.weekDay = this.weekDay(date.getUTCDay());-->
+    <div class="dayHead">
+        {{pack.weekDay}}
+        <div class="dayDate">{{pack.fullDate}}</div>
+    </div>
+    <img class="dayIcon" src={{pack.icon}} height="80px" width="75px">
+    <div class="dayWeather">{{pack.weather}}</div>
+    <!--<div class="dayWeatherDesc">{{pack.weatherDesc}}</div>-->
+    <div class="dayTemp font2">{{pack.temp.reg}}&#176;F</div>
+    <div class="dayTempHigh font2">High: {{pack.temp.high}}</div>
+    <div class="dayTempLow font2">Low: {{pack.temp.low}}</div>
+</div>

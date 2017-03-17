@@ -1,0 +1,37 @@
+<div class="fullInfo" *ngIf=openMe>
+
+    <div class="dim" (click)="closeInfo()">
+    </div>
+
+    <div class="information" [@enterAnimation]="openMe">
+        <div class="closeSymb " (click)="closeInfo() ">X</div>
+        <div class="flexContain">
+
+
+
+
+            <div class="mainInfo">
+                <div class="dayHead ">
+                    <div class="dayLoc">{{pack.city}}, {{pack.country | uppercase}}</div>
+                    <div class="dayWeek">{{pack.weekDay}}</div>
+                    <div class="dayDate ">{{pack.fullDate}}</div>
+                </div>
+                <img class="dayIcon " src={{pack.icon}} height="80px " width="75px ">
+                <div class="dayWeather ">{{pack.weather}}</div>
+                <div class="dayWeatherDesc ">{{pack.weatherDesc}}</div>
+            </div>
+            <div class="sideInfo">
+                <ul>
+                    <li>Pressure: {{pack.pressure}}</li>
+                    <li>Sea Level: {{pack.sea_level}}</li>
+                    <li>Wind Speed: {{pack.wind}}</li>
+                </ul>
+            </div>
+            <div class="tempsContain">
+                <app-subtemps *ngFor="let item of pack.temps; let ind = index" [@packedDay]="pack.temps[ind]"></app-subtemps>
+            </div>
+        </div>
+        <div class="closeButt btn btn-primary " (click)="closeInfo() ">Close</div>
+    </div>
+
+</div>

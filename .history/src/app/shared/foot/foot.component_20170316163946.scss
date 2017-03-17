@@ -1,0 +1,11 @@
+.foot {
+    position: static;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    background: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}

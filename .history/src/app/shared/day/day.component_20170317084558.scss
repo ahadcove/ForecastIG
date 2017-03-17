@@ -1,0 +1,89 @@
+@import '../../../styles';
+.day {
+    border: solid black;
+    height: 65vh;
+    min-height: 400px;
+    width: 18vw;
+    background: $weather;
+    cursor: pointer;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.day:hover {
+    background: $main;
+}
+
+.day:active {
+    background: white;
+    color: black;
+}
+
+.dayHead {
+    font-size: 1.4em;
+    // margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.dayBody {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.dayDate {
+    font-size: .5em;
+    color: navajowhite;
+}
+
+.dayIcon {
+    text-align: center;
+    // margin: 16px 0 40px 0;
+    animation: slide 5s linear infinite;
+}
+
+.day:hover .dayIcon {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(20%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    75% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.dayWeather {
+    // margin-bottom: 40px;
+    font-size: 1.2em;
+}
+
+.dayTemp {
+    font-size: 1.2em;
+}
+
+.dayTempHigh,
+.dayTempLow {
+    font-size: .7em;
+}
+
+.dayTempHigh {}
+
+.dayTempLow {}

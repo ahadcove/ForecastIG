@@ -1,0 +1,35 @@
+// $main:#7f2626;
+$main:#9D4343;
+$test:#F4F4F4;
+$comp:#262228;
+$foot:#535353;
+$weather:#6ed3cf;
+* {
+    padding: 0;
+    margin: 0;
+    // Title, logo, menu, days
+    font-family: "Merriweather";
+}
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.font2 {
+    font-family: "Sansita";
+}
+
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    background: $main;
+}

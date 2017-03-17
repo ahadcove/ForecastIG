@@ -1,0 +1,53 @@
+// @import '../../../styles';
+.menuComp {
+    background: dimgray;
+    width: 40vw;
+    position: fixed;
+    top: 3vh;
+    right: 6vw;
+    z-index: 99;
+}
+
+ul {
+    // position: relative;
+    // bottom: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+li {
+    padding: 3px 5px;
+    border: outset $main 4px;
+    background: gainsboro;
+    display: inline;
+    cursor: no-drop;
+    font-size: 1.2em;
+}
+
+.dim {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 80 !important;
+    background-color: black;
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+}
+
+.closeSymb {
+    cursor: pointer;
+    text-align: right;
+    margin: 10px 25px;
+    font-size: 1.6em;
+    transition: 1s ease
+}
+
+.closeSymb:hover {
+    color: blue;
+}

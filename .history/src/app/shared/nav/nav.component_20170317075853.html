@@ -1,0 +1,19 @@
+<div class="nav">
+    <div class="navLeft">
+        <div class="navLogo"> <span class="firstWord">I</span><span class="secondWord">G</span></div>
+        <div class="logoTxt">
+            <span class="firstWord">Insight</span>
+            <span class="secondWord">Global</span>
+        </div>
+    </div>
+    <app-menu #menu></app-menu>
+
+    <div class="navRight">
+        <div class="navMenu" (click)="menu.openMenu()"><i class="fa fa-bars" aria-hidden="true"></i>
+            <div class="bar"></div>
+            <p class="menuTxt">menu</p>
+            <div class="bar"></div>
+            <!--<div class="menuTxt">menu</div>-->
+        </div>
+    </div>
+</div>

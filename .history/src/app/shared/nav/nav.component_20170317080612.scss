@@ -1,0 +1,90 @@
+@import '../../../styles';
+.nav {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.navLeft,
+.navRight {
+    cursor: pointer;
+}
+
+.navRight:active {
+    color: black;
+}
+
+.navLeft {}
+
+.navLogo {
+    font-size: 1.4em;
+}
+
+.logoTxt {
+    font-size: .8em;
+}
+
+.firstWord {
+    font-weight: 600;
+    color: $main;
+}
+
+.secondWord {
+    font-weight: 700;
+    color: white;
+}
+
+.mockLogo {
+    position: relative;
+    bottom: 5px;
+    font-weight: 600;
+    font-size: 1.5em;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+
+.navLeft:hover .firstWord {
+    color: white;
+}
+
+.navLeft:hover .secondWord {
+    color: $main;
+}
+
+.navRight {
+    margin-right: 20px;
+}
+
+.menuTxt {
+    margin: 0;
+    padding: 0;
+}
+
+.bar1,
+.bar2 {
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.bar1 {
+    position: relative;
+    top: 5px;
+}
+
+.cross {
+    background: black;
+}
+
+.navRight:hover {
+    color: $main;
+}

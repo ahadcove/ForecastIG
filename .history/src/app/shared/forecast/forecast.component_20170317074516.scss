@@ -1,0 +1,25 @@
+@import '../../../styles';
+.forecast {
+    padding-top: 15vh;
+    height: 120vh;
+    min-height: 600px;
+    width: 100vw;
+    background: $comp;
+    color: white;
+}
+
+.foreHead {
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.foreBody {
+    margin-top: 10vh;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: $test;
+    padding: 6.5vh 0;
+}

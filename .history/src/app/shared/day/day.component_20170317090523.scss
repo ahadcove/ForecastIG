@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     // align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .day:hover {
@@ -27,16 +27,12 @@
 
 .dayHead {
     height: 8vh;
-    // min-height: 36px;
+    min-height: 36px;
     font-size: 1.6em;
     // margin-bottom: 5px;
+    // border-bottom: 1px solid white;
     padding-bottom: 2px;
     font-weight: 700;
-}
-
-.borderDiv {
-    border-bottom: 1px solid white;
-    height: .5vh;
 }
 
 .dayDate {

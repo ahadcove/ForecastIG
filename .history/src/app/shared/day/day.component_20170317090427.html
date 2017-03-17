@@ -1,0 +1,14 @@
+<div class="day" (click)="openModal()">
+    <div class="dayBody">
+
+        <div class="dayHead">
+            {{pack.weekDay}}
+            <div class="dayDate">{{pack.fullDate}}</div>
+        </div>
+        <img class="dayIcon" src={{pack.icon}} height="80px" width="75px">
+        <div class="dayWeather">{{pack.weather}}</div>
+        <div class="dayTemp font2">{{pack.temp.reg}}&#176;F</div>
+        <div class="dayTempHigh font2">High: {{pack.temp.high}}</div>
+        <div class="dayTempLow font2">Low: {{pack.temp.low}}</div>
+    </div>
+</div>
